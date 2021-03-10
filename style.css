@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.list-productos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.list-productos figure{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+}
+
+.header{
+    height: 750px;
+    background: url(img2/header2.jpg) no-repeat center top;
+    background-size: cover;
+}
+
+.navbar{
+    height: 63px;
+    background:darkblue;
+    border-top:5px dashed red ;
+    border-bottom: 5px dashed red;
+}
+
+.navbar a {
+    padding: 0 20px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font: 20px;
+}
+
+.title {
+    margin-bottom: 40px;
+    font: 60px;
+    text-transform: uppercase;
+}
+
+p {
+    margin-bottom: 40px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 40px;
+    border: 2px solid #fff;
+    color: #fff;
+    text-decoration: none;
+}
+
+.content {
+    padding: 80px 0;
+}
+
+.abo {
+    background: darkred;
+    color: white;
+    border-bottom: 5px dashed white;
+}
+
+.abo p{
+    max-width: 1055px;
+    margin: 0 auto;
+}
+
+.productos {
+    background: darkblue;
+    border-bottom: 5px dashed red;
+    color: white;
+}
+
+.costos {
+    background: url(img2/cost1.jpg) no-repeat center top;
+    height: 250px;
+    color: white;
+    text-align: left;
+    background: cover;
+    border-bottom: 5px dashed darkblue;
+}
+
+.contain{
+    max-width: 1055px;
+    margin: 0 auto;
+}
+
+.costos p{
+    max-width: 450px;
+}
+
+.ubicacion{
+    background: silver;
+    color: white;
+    padding-bottom: 0;
+}
+
+.ubicacion .map img{
+    max-width: 100%;
+    height: 750px;
+}
+
+.list-productos figure{
+    position: relative;
+    width: 170px;
+    height: 200px;
+}
+
+
+
+.list-productos img{
+    position: relative;
+    z-index: 1;
+}
+
+.list-productos li{
+    padding: 0 40px;
+}
+
+.list-productos figcaption{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -40px;
+}
